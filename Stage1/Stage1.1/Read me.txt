@@ -1,5 +1,5 @@
 In folder "Stage1.1" there are the image files that exhibit Standard Behaivor. Here I tried to apply Binary Layers and different filters to successfully produce smoothened and prominent regions and minimize or remove insignificant details.
-For the Binary_Layer_2 and Binary_Layer_3 the best outcomes were for 72-11.jpg (uploaded as well), however on average 74-11.jpg was a better example for Standard Behavior exhibition.
+For the Binary_Layer_2 and Binary_Layer_3 another good outcome was for 72-11.jpg (uploaded as well), however on average 74-11.jpg was a better example for Standard Behavior exhibition.
 
 
 74-11-layer0-Median(radius 4)-Maximum(radius 1).tif

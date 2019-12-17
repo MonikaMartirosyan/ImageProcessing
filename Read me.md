@@ -1,2 +1,0 @@
-# ImageProcessing
-Final Project

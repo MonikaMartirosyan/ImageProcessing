@@ -1,0 +1,29 @@
+In this folder there are some results of many trials of applying different filters (Mean, Median, Gaussian Blur, etc.) as well as extracting the
+Binary Layers as to produce smoothened and prominent regions and minimize or remove insignificant details. 
+As you can see the folder contains subfolders (i.e. "Average Result", "Fails"), the discription of which will be mentioned below.
+
+The main results which appeard to be the best fit for Standard Behavior exhibition are the following: 
+74-11-Mean(radius 3)-layer0-Maximum(radius 1)
+74-11-Median(radius 3)-layer2-Minimum(radius 1)
+74-11-layer1-Maximum(radius 1)-Minimum(radius 1)-Median(radius 7)
+74-11-layer3-Minimum(radius 1)-Median(radius 5)
+After trying all, I thought that the best example for the Standard Behavior exhibition (from my individual list of image files) was 74-11.jpg. For each layer there should have been an individual approach, the steps of which you can see above.
+
+In the subfolder called "Average Result" I submitted the results which were pretty close (as to me) to be considered as exhibitions of Standard Behavior. After many trails I decided to take two of the files from the "Average Result" subfolder as my final result.
+72-11-layer2-Median(radius 3)-Minimum(radius 1)
+72-11-layer3-Minimum(radius 0.5)-Median(radius 3)
+74-11-layer0-Median(radius 4)-Maximum(radius 1)
+74-11-layer1-Maximum(radius 1)-Minimum(radius 1)-Median(radius 7)
+74-11-layer2-Minimum(radius 2)-Median(radius 5)
+74-11-layer3-Minimum(radius 1)-Median(radius 5)
+
+In "Fails" there are some of the results that cannot be considered as exhibitions of Standard Behavior:
+71-11-layer3-fail
+72-11-layer1-Maximum(radius 2)-Median(radius 2)
+72-11-layer1-fail
+72-11-layer3-fail
+73-11-layer0-Mean(radius 2)-Minimum(radius 2)
+73-11-layer0-fail
+74-10-layer0-Maximum(radius 2)
+74-14-layer0
+74-14-layer2

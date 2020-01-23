@@ -1,9 +1,0 @@
-This stage (Stage1.2) cointains 3 different approaches I used to get a better smoothening result. In the subfolder "Failed Attempt" there are the image files that resulted from the first approach. There I found the avarage filters and calculated the avarage radius values from the filters and Binary Layers I used in Stage 1.1 (layer0-Minimum(radius1)-Median(radius5)-Maximum(radius0.5); layer1-Minimum(radius1)-Median(radius5)-Maximum(radius0.5); layer2-Minimum(radius1)-Median(radius5)-Maximum(radius0.5); layer3-Minimum(radius1)-Median(radius5)-Maximum(radius0.5)). But the results obviously as you can see weren't successful. The second subfolder named "Another Failed Attempt" contains image files that resulted from the second approach, which was applying filters and binary layers which intuitevely would make a good result (layer0-Median(radius 2)-Maximum(radius 2); layer1-Median(radius 2)-Maximum(radius 2); layer2-Median(radius 2)-Maximum(radius 2); layer3-Median(radius 2)-Maximum(radius 2)). However, unfortunately this approach failed to be successful as well. Eventually I realized that it would be a good idea to try different combinations of convolutional matrices, and it appeared that the bigger the convolutional matrix, the better rusult I get. The best results I got was the case when I used the following modification:
--7 -7 -7 -7 -7 -7 -7
--7 -5 -5 -5 -5 -5 -7
--7 -5 -3 -3 -3 -5 -7
--7 -5 -3  0 -3 -5 -7
--7 -5 -3 -3 -3 -5 -7
--7 -5 -5 -5 -5 -5 -7
--7 -7 -7 -7 -7 -7 -7 
-After which I applied Gaussian Blur(radius 2) and Maximum(radius 2).
